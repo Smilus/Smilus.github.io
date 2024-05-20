@@ -1,0 +1,30 @@
+HTML Tags:
+
+    <div>
+    <ul>
+    <li>
+    <a>
+    <h1>
+    <p>
+    <br>
+    <button>
+    <map>
+    <area>
+    <img>
+
+CSS Selectors (top 5, not exhaustive):
+
+    .main
+    .choice
+    .buttons
+    .content
+    .menu
+
+js:
+
+    I use js to randomly select moral scenarios and forward the user to different pages after dying.
+
+Bootstrap:
+
+    I use Bootstrap's grid system to organize my pages.
+    

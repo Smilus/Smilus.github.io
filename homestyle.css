@@ -1,0 +1,62 @@
+/*
+Sources:
+
+https://www.w3schools.com/tags/tag_center.asp
+https://www.w3schools.com/css/css_comments.asp
+https://www.w3schools.com/css/css3_borders.asp
+https://www.codesdope.com/blog/article/adding-outline-to-text-using-css/
+https://www.w3schools.com/Css/css_font.asp
+https://codepen.io/teerapuch/pen/vLJXeR
+*/
+
+body {
+    background-color: black;
+    background-image: url("elements/distracted.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+.main {
+    background-color: white;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+h1 {
+    color: white !important;
+    text-align: center;
+    font-size: calc(4*(1.375rem + 1.5vw)) !important;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.choice {
+    color: white;
+    background-color: #00dddd;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.choice:hover {
+    background-color: #00aaaa;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.menu {
+    font-family: "Times New Roman", Times, serif;
+}

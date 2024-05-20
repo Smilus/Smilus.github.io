@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    background-image: url("elements/straya.jpeg"); /* https://www.nytimes.com/2020/03/04/climate/australia-wildfires-climate-change.html */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+h1 {
+    color: red !important;
+    text-align: center;
+    font-size: calc(3*(1.375rem + 1.5vw)) !important;
+}
+
+.menu {
+    background-color: white;
+    color: white !important;
+}
+
+.main {
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", arial;
+}
+
+.choice {
+    color: white;
+    background-color: #00dddd;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.choice:hover {
+    background-color: #00aaaa;
+}
+
+.content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.spinny {
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

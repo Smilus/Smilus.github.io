@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="heavenstyle.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Heaven.</title>
+    <audio id="jazz">
+        <source src="elements/jazz.mp3" type="audio/mp3>
+    </audio>
+
+    <!--js-->
+    <script src="heaven.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="col-lg-2">
+          <button type="button" onclick="slidy()" class="collapsible choice">MENU</button>
+          <div class="content">
+            <div id="menu">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="heaven.html">Heaven</a></li>
+                <li><a href="hell.html">Hell</a></li>
+                <li><a href="purgatory.html">Purgatory</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-lg-center">
+          <div class="col-lg-10">
+            <div class="main">
+              <a href="index.html"><button class="choice" type="button">REINCARNATE</button></a>
+              <h1>
+                Welcome to Heaven.
+              </h1>
+              <p class="imperative">
+                Please pet the seal (seal petting not currently operational :( ).
+              </p>
+              <map name="sealmap">
+                <area shape="circle" coords="124,58,8" onclick="sealnoise()">
+              </map>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--js-->
+    <script src="home.js"></script>
+
+    <audio id="bark">
+      <source src="elements/jazz.mp3" type="audio/mp3">
+    </audio>
+  </body>
+</html>
